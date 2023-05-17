@@ -6,9 +6,20 @@
 .container {
   background: black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 60%;
   height: 700px;
-  margin: 0% auto; }
+  margin: 0% auto;
+  gap: 50px;
+  margin-top: 50px; }
+
+.text {
+  color: white; }
+
+.cricle {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px; }
