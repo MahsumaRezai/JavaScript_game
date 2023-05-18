@@ -1,6 +1,6 @@
 function give() {
     const input = document.getElementById("input").value;
-    if (input != undefined && input % 2 == 0) {
+    if (input != null && input % 2 == 0) {
         document.getElementById("div1").style.backgroundColor = "green";
         document.getElementById("div1").innerText = "Thanks";
         document.getElementById("div2").style.backgroundColor = "green";
@@ -14,13 +14,20 @@ function give() {
         document.getElementById("div6").style.backgroundColor = "green";
         document.getElementById("div6").innerText = "Game";
     }
-    else if (input != undefined && input % 2 == 1) {
+    else if (input != null && input % 2 == 1) {
         document.getElementById("div1").style.backgroundColor = "red";
+        document.getElementById("div1").innerText = "I";
         document.getElementById("div2").style.backgroundColor = "red";
+        document.getElementById("div2").innerText = "Am";
         document.getElementById("div3").style.backgroundColor = "red";
+        document.getElementById("div3").innerText = "So";
         document.getElementById("div4").style.backgroundColor = "red";
+        document.getElementById("div4").innerText = "sorry";
         document.getElementById("div5").style.backgroundColor = "red";
+        document.getElementById("div5").innerText = "Try";
         document.getElementById("div6").style.backgroundColor = "red";
+        document.getElementById("div6").innerText = "Again";
+
 
         const show = () => {
             document.getElementById("div1").style.display = "none";
