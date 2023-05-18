@@ -10,7 +10,7 @@
   align-items: center;
   gap: 20px;
   width: 50%;
-  height: 500px;
+  height: 600px;
   margin: 0% auto;
   background: white;
   box-shadow: 10px 1px 10px 10px gainsboro;
@@ -18,47 +18,76 @@
   border-radius: 20px;
   margin-top: 100px; }
 
-.shape {
-  width: 300px;
-  height: 80px;
-  background: gainsboro;
-  border-radius: 20px; }
+.head {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: maroon; }
 
 .shape1 {
   width: 300px;
   height: 80px;
   background: gainsboro;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .shape2 {
   width: 300px;
   height: 80px;
   background: hotpink;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .shape3 {
   width: 300px;
   height: 80px;
   background: mediumslateblue;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .shape4 {
   width: 300px;
   height: 80px;
   background: firebrick;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .shape5 {
   width: 300px;
   height: 80px;
   background: orange;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .shape6 {
   width: 300px;
   height: 80px;
   background: navy;
-  border-radius: 20px; }
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px; }
 
 .section-input {
   display: flex;
@@ -67,6 +96,13 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; }
 
 .input {
   width: 300px;
@@ -84,4 +120,4 @@
   color: white;
   font-family: sans-serif;
   border-radius: 10px;
-  font-size: 15px; }
+  font-size: 17px; }
